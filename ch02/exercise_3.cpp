@@ -1,7 +1,7 @@
 #include <iostream>
 void print_1();
 void print_2();
-int main3() 
+int main() 
 {
 	using namespace std;
 	print_1();
