@@ -1,4 +1,5 @@
 #include <iostream>
+const int foot2inch = 12;
 
 int main()
 {
@@ -6,7 +7,8 @@ int main()
     int height_inch;
     cout << "Enter your height in inch: ";
     cin >> height_inch;
-    const int foot2inch = 12;
-    cout << "your height is "<< height_inch/foot2inch << " foots "
+    
+    cout << "your height is "<< height_inch/foot2inch << " feet "
          << height_inch%foot2inch << " inches.\n";
+    return 0;
 }
