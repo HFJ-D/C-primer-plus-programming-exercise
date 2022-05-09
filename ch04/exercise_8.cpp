@@ -23,5 +23,6 @@ int main()
     cout << "The pizza is of " << sample->name << " company.\n" 
          << "The diameters of the pizza is " << sample->diameter 
          << " and the weight is " << sample->weight << ".\n";
+    delete sample;
     return 0;
 }
