@@ -1,1 +1,1 @@
-# C-primer-plus-programming-exercise
+# CPP-primer-plus-programming-exercise
