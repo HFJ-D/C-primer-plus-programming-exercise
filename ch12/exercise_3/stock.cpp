@@ -4,7 +4,7 @@
 
 Stock::Stock()
 {
-	company = "no name";
+	company = "nullptr";
 	shares = 0;
 	share_val = 0.0;
 	total_val = 0.0;
